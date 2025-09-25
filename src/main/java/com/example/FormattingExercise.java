@@ -15,8 +15,8 @@ public class FormattingExercise {
         String formatGpa = String.format("GPA: %.2f", gpa);
         System.out.println(formatGpa);
         // step 4 combine all three into one formatted sentence using String.format
-        String formatSentence = String.format("Name: %s, Age: %d, GPA: %.2f", name, age, gpa);
-        System.out.println(formatSentence);
+        String Sentence = String.format("Name: %s, Age: %d, GPA: %.2f", name, age, gpa);
+        System.out.println(Sentence);
         // step 5 print the same thing using printf
         System.out.printf("Name: %s, Age: %d, GPA: %.2f", name, age, gpa);
     }

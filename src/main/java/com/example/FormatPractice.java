@@ -24,9 +24,9 @@ public class FormatPractice {
         System.out.println(mtvVma);
 
         //Step 4: combine all four variables in a String.format sentence
-        String iconSentence = String.format("%s beloved by her %s has won %d Grammy's so far and wore a meat dress weighing %.2f kg.", iconsName, fanBaseName, numberOfGrammys, iconicMeatDressWeight);
+        String iconSentence = String.format("%s beloved by her %s has won %d Grammy's so far and once wore a meat dress weighing %.2f kg.", iconsName, fanBaseName, numberOfGrammys, iconicMeatDressWeight);
         System.out.println(iconSentence);
         // Step 5: Print the same thing using printf
-        System.out.printf("%s beloved by her %s has won %d Grammy's so far and wore a meat dress weighing %.2f kg.", iconsName, fanBaseName, numberOfGrammys, iconicMeatDressWeight);
+        System.out.printf("%s beloved by her %s has won %d Grammy's so far and once wore a meat dress weighing %.2f kg.", iconsName, fanBaseName, numberOfGrammys, iconicMeatDressWeight);
     }
 }

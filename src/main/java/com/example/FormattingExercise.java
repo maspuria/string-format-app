@@ -8,16 +8,21 @@ public class FormattingExercise {
         // Step 1: Format and print the string variable (name)
         String formatName = String.format("Name: %s", name);
         System.out.println(formatName);
+        // or System.out.println(String.format("Name: %s", name));
+
         // Step 2: format and print the int variable (age)
         String formatAge = String.format("Age: %d", age);
         System.out.println(formatAge);
+
         //step 3: format and print the double variable (gpa) with 2 decimal places
         String formatGpa = String.format("GPA: %.2f", gpa);
         System.out.println(formatGpa);
-        // step 4 combine all three into one formatted sentence using String.format
+
+        // Step 4: combine all three into one formatted sentence using String.format
         String Sentence = String.format("Name: %s, Age: %d, GPA: %.2f", name, age, gpa);
         System.out.println(Sentence);
-        // step 5 print the same thing using printf
+
+        // Step 5: print the same thing using printf
         System.out.printf("Name: %s, Age: %d, GPA: %.2f", name, age, gpa);
     }
 }

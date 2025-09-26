@@ -7,8 +7,10 @@ public class FormatPractice {
         double iconicMeatDressWeight =  22.68;
 
         // Step 1 : Format and print the string variable (icons name)
-        String artistOfTheYear = ("The Artist of the Year for 2025: %s", iconsName);
+        String artistOfTheYear = String.format("The Artist of the Year for 2025: %s", iconsName);
         System.out.println(artistOfTheYear);
+
+
 
     }
 }
